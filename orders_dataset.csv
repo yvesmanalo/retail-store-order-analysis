@@ -1,0 +1,51 @@
+order_id,customer_id,order_date,product_category,product_name,quantity,price_per_unit,region
+1,121,3/4/2024,Electronics,Headphones,3,252.44,South
+2,124,3/4/2024,Stationery,Notebook,5,427.70,North
+3,103,3/7/2024,Electronics,Headphones,5,36.27,South
+4,123,3/21/2024,Stationery,Pen Pack,2,454.72,East
+5,126,3/28/2024,Electronics,Smartphone,4,346.85,South
+6,107,3/31/2024,Furniture,Office Chair,1,386.13,East
+7,128,3/12/2024,Stationery,Pen Pack,1,732.43,North
+8,130,3/13/2024,Electronics,Headphones,3,831.11,East
+9,119,3/7/2024,Stationery,Notebook,1,664.65,East
+10,103,3/28/2024,Electronics,Smartphone,4,285.19,East
+11,106,3/12/2024,Furniture,Office Chair,3,704.80,North
+12,120,3/21/2024,Electronics,Headphones,2,171.77,West
+13,109,3/30/2024,Stationery,Notebook,3,844.42,North
+14,108,3/27/2024,Electronics,Laptop,4,275.06,South
+15,130,3/31/2024,Stationery,Pen Pack,2,658.88,West
+16,129,3/30/2024,Stationery,Pen Pack,2,272.23,South
+17,124,3/18/2024,Stationery,Pen Pack,5,434.15,West
+18,112,3/8/2024,Electronics,Headphones,4,100.00,North
+19,128,3/4/2024,Electronics,Headphones,2,794.16,West
+20,120,3/3/2024,Furniture,Desk Lamp,5,996.16,East
+21,118,3/28/2024,Electronics,Headphones,1,684.89,East
+22,125,3/21/2024,Furniture,Office Chair,3,440.42,West
+23,101,3/31/2024,Stationery,Pen Pack,5,764.34,North
+24,128,3/21/2024,Furniture,Office Chair,2,380.17,South
+25,118,3/31/2024,Stationery,Notebook,5,330.91,North
+26,104,3/30/2024,Furniture,Desk Lamp,2,67.35,North
+27,103,3/24/2024,Furniture,Office Chair,5,768.18,South
+28,122,3/16/2024,Stationery,Notebook,3,532.40,West
+29,107,3/30/2024,Stationery,Notebook,3,405.00,East
+30,115,3/29/2024,Stationery,Pen Pack,1,255.43,North
+31,111,3/1/2024,Stationery,Notebook,5,228.02,North
+32,123,3/21/2024,Electronics,Smartphone,1,906.37,East
+33,103,3/17/2024,Electronics,Laptop,4,222.09,South
+34,124,3/30/2024,Stationery,Pen Pack,2,786.77,West
+35,107,3/4/2024,Electronics,Headphones,4,360.75,West
+36,115,3/28/2024,Stationery,Notebook,1,70.01,East
+37,126,3/28/2024,Electronics,Smartphone,2,198.31,West
+38,105,3/14/2024,Electronics,Laptop,4,257.31,North
+39,115,3/26/2024,Stationery,Notebook,1,655.62,North
+40,103,3/30/2024,Electronics,Smartphone,4,490.78,South
+41,128,3/13/2024,Electronics,Smartphone,4,12.13,West
+42,109,3/30/2024,Furniture,Desk Lamp,4,699.63,West
+43,105,3/7/2024,Furniture,Office Chair,1,583.39,North
+44,124,3/11/2024,Electronics,Smartphone,5,482.02,South
+45,102,3/31/2024,Stationery,Notebook,2,77.84,North
+46,122,3/28/2024,Electronics,Laptop,1,942.18,South
+47,119,3/20/2024,Electronics,Headphones,1,425.03,East
+48,130,3/9/2024,Electronics,Headphones,3,246.30,West
+49,105,3/22/2024,Stationery,Pen Pack,4,323.02,North
+50,101,3/15/2024,Stationery,Notebook,1,542.26,East
