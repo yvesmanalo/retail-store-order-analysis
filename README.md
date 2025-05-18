@@ -45,6 +45,39 @@ For demo and simplicity purposes, the dataset used for this project is generated
 | region | TEXT | Region where the order was made |
 
 ### Data Preparation
-The orders_dataset.csv dataset does not have correct data type for most of its columns. This can be corrected by changing its data type on the Number Format using Excel
+The orders_dataset.csv dataset does not have correct data type for most of its columns. This can be corrected by changing its data type on the Number Format using Excel.
+
+**order_id**
+
+![corrected data type for order_id column](images/datatype1.png)
+
+**customer_id**
+
+![corrected data type for customer_id column](images/datatype2.png)
+
+**order_date**
+
+![corrected data type for order_date column](images/datatype3.png)
+
+**product_category**
+
+![corrected data type for product_category column](images/datatype4.png)
+
+**product_name**
+
+![corrected data type for product_name column](images/datatype5.png)
+
+**quantity**
+
+![corrected data type for quantity column](images/datatype6.png)
+
+**price_per_unit**
+
+![corrected data type for price_per_unit column](images/datatype7.png)
+
+**region**
+
+![corrected data type for region column](images/datatype8.png)
+
 
 
