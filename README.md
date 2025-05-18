@@ -1,8 +1,8 @@
 # 📊SQL Project: Sales Insights: Analyzing a Retail Store’s Orders
 Welcome to my SQL beginner project! This is ahands-on project designed to strengthen my SQL skills through data exploration, querying, and basic analysis.
 ## 📁 Project Overview
-<b>Objective:</b>
-</br>
+### Objective:
+
 The goal of this project is to analyze a fictitious retail store database by answering the following questions through SQL.
 - What is the total number of orders placed?
 - How many orders were made in each region?
@@ -15,7 +15,7 @@ The goal of this project is to analyze a fictitious retail store database by ans
 - How many unique customers placed orders?
 - Which region had the highest average order revenue?
 
-<b>Skills used:</b>
+### Skills used:
 
 - SELECT statements
 - Filtering with WHERE
@@ -28,6 +28,22 @@ The goal of this project is to analyze a fictitious retail store database by ans
 - SQL Dialect: PostgreSQL
 - Database Tool: pgAdmin
 - Data Source: order_dataset.csv
+
+## 🔨 Project Setup
+### About the Data
+For demo and simplicity purposes, the dataset used for this project is generated using ChatGPT. The generated dataset consists of 50 rows with the following fields
+
+| Column name | Data Type | Description |
+|--------|--------|--------|
+| order_id | INTEGER | Unique ID for each order |
+| customer_id | INTEGER | ID of the customer placing the order |
+| order_date |	DATE |	Date the order was placed |
+| product_category | TEXT | Category of the product |
+| product_name | TEXT |	Name of the product |
+| quantity | INTEGER | Number of units ordered |
+| price_per_unit | FLOAT | Price per single unit of the product |
+| region | TEXT | Region where the order was made |
+
 
 
 
