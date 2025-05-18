@@ -91,7 +91,7 @@ Now that **retail_store_database** is created. The next step is to create a tabl
 
 ![creating retail_store_database](images/orders_table_creation.png)
 
-We want to make sure that each column of **orders** has the same data type with its corresponding column of the **orders_dataset.csv** that we prepared earlier. This is to avoid error once we start loading the csv file to the **retail_store_database**
+We want to make sure that each column of **orders** has the same data type with its corresponding column in the **orders_dataset.csv** that we prepared earlier. This is to avoid error once we start loading the csv file to the **retail_store_database**.
 
 ![creating retail_store_database](images/orders_table_properties.png)
 
