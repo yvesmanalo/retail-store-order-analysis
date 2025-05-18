@@ -44,6 +44,7 @@ For demo and simplicity purposes, the dataset used for this project is generated
 | price_per_unit | FLOAT | Price per single unit of the product |
 | region | TEXT | Region where the order was made |
 
-
+### Data Preparation
+The orders_dataset.csv dataset does not have correct data type for most of its columns. This can be corrected by changing its data type on the Number Format using Excel
 
 
