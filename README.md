@@ -79,13 +79,13 @@ The orders_dataset.csv dataset does not have correct data type for most of its c
 
 ![corrected data type for region column](images/datatype8.png)
 
-###Creating the Database
+### Creating the database
 
 With **orders_dataset.csv** being prepared, its ready to be load to a database to which we can perform queries. But first we need to create this database using pgAdmin tool. We will name this database as **retail_store_database**.
 
 ![creating retail_store_database](images/order_database_creation.png)
 
-###Creating the Table
+### Creating the table
 
 Now that **retail_store_database** is created. The next step is to create a table within it. We will name this table as **orders**.
 
