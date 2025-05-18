@@ -14,7 +14,7 @@ The goal of this project is to analyze a fictitious retail store database by ans
 - What is the average order quantity per product category?
 - How many unique customers placed orders?
 - Which region had the highest average order revenue?
-</br>
+
 <b>Skills used:</b>
 
 - SELECT statements
@@ -22,5 +22,12 @@ The goal of this project is to analyze a fictitious retail store database by ans
 - Aggregations (GROUP BY, HAVING)
 - Subqueries
 - Sorting and limiting data
-</br>
+
+## 🧰 Tools & Technologies
+
+- SQL Dialect: PostgreSQL
+- Database Tool: pgAdmin
+- Data Source: order_dataset.csv
+
+
 
