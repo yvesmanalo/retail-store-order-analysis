@@ -83,7 +83,13 @@ The orders_dataset.csv dataset does not have correct data type for most of its c
 
 With **orders_dataset.csv** being prepared, its ready to be load to a database to which we can perform queries. But first we need to create this database using pgAdmin tool. We will name this database as **retail_store_database**.
 
+![creating retail_store_database](images/order_database_name.png)
+
 ![creating retail_store_database](images/order_database_creation.png)
+
+Under the **definitions** tab, let the encoding had its default value of **UTF8**
+
+![creating retail_store_database](images/order_database_encoding.png)
 
 ### Creating the table
 
