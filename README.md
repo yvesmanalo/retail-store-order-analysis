@@ -87,7 +87,7 @@ With **orders_dataset.csv** being prepared, its ready to be load to a database t
 
 ![creating retail_store_database](images/order_database_name.png)
 
-Under the **definitions** tab, let the encoding had its default value of **UTF8**
+Under the **definitions** tab, let the value of encoding field stay to its default value of **UTF8**.
 
 ![creating retail_store_database](images/order_database_encoding.png)
 
@@ -100,6 +100,14 @@ Now that **retail_store_database** is created. The next step is to create a tabl
 We want to make sure that each column of **orders** has the same data type with its corresponding column in the **orders_dataset.csv** that we prepared earlier. This is to avoid error once we start loading the csv file to the **retail_store_database**.
 
 ![creating retail_store_database](images/orders_table_properties.png)
+
+
+### Importing the data
+
+After creating the table with its appropriate columns' data type, we can now load the contents of **orders_dataset.csv** on it. On the **orders** table of **retail_store_database**, right-click on it and select **Import/Export Data** option.
+
+![creating retail_store_database](images/importing_data.png)
+
 
 
 
