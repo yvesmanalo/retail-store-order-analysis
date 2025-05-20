@@ -106,23 +106,23 @@ We want to make sure that each column of **orders** has the same data type with 
 
 After creating the table with its appropriate columns' data type, we can now load the contents of **orders_dataset.csv** on it. On the **orders** table of **retail_store_database**, right-click on it and select **Import/Export Data** option.
 
-![creating retail_store_database](images/importing_data.png)
+![creating retail_store_database](images/import_data.png)
 
 Under the **General** tab, choose **import** on the toggle. For the **filename** field, browse on the file location of **orders_dataset.csv** file. For the **Format** and **Encoding** field, choose **csv** (orders_dataset file type) and **UTF8**, respectively.
 
-![creating retail_store_database](images/importing_export_data_general.png)
+![creating retail_store_database](images/import_export_data_general.png)
 
 Under the **General** tab, turn on **Header** toggle. Since the dataset to be imported  is a csv (comma separated value) file, choose **,** as the **Delimiter**.
 
-![creating retail_store_database](images/importing_export_data_options.png)
+![creating retail_store_database](images/import_export_data_options.png)
 
 Lastly, under the **Columns** tab, check the **Columns to export** if the values matches the columns of the dataset to be imported as well as the columns of the previously created **orders** table. Once check, click **OK**. 
 
-![creating retail_store_database](images/importing_export_data_columns.png)
+![creating retail_store_database](images/import_export_data_columns.png)
 
 If the importing of data becomes successful, you'll see a notification like this.
 
-![creating retail_store_database](images/importing_export_data_successful.png)
+![creating retail_store_database](images/import_data_successful.png)
 
 
 
