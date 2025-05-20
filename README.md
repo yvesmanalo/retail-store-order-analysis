@@ -124,16 +124,21 @@ If the importing of data becomes successful, you'll see a notification like this
 
 ![notification of successful data import](images/import_data_successful.png)
 
-### Writing the queries
+## ✍️ Writing the queries
 
 Now that the records of **orders_dataset.csv** has been loaded to **orders** table, we can proceed with the analysis of the retail store's sales in order to answer the following questions stated previously by writing SQL queries. Under **Tables**, right-click on **orders** and choose **Query Tool**. 
-
 
 ![navigating to the query tool](images/order_table_query_tool.png)
 
 This will show the space under **retail_store_database** where the queries can be written and run.
 
 ![workspace for retail_store_database_query_tool](images/retail_store_database_query_tool.png)
+
+The next series of code and images are the queries for each of the following questions.
+
+### Question 1: What is the total number of orders placed?
+
+
 
 
 
