@@ -106,7 +106,7 @@ We want to make sure that each column of **orders** has the same data type with 
 
 After creating the table with its appropriate columns' data type, we can now load the contents of **orders_dataset.csv** on it. On the **orders** table of **retail_store_database**, right-click on it and select **Import/Export Data** option.
 
-![creating retail_store_database](images/import_data.png)
+![creating retail_store_database](images/importing_data.png)
 
 Under the **General** tab, choose **import** on the toggle. For the **filename** field, browse on the file location of **orders_dataset.csv** file. For the **Format** and **Encoding** field, choose **csv** (orders_dataset file type) and **UTF8**, respectively.
 
