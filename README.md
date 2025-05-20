@@ -25,7 +25,7 @@ The goal of this project is to analyze a fictitious retail store database by ans
 
 ## 🧰 Tools & Technologies
 
-- SQL Dialect: PostgreSQL
+- SQL Flavor: PostgreSQL
 - Database Tool: pgAdmin
 - Data Source: order_dataset.csv
 
@@ -85,44 +85,56 @@ With **orders_dataset.csv** being prepared, its ready to be load to a database t
 
 ![creating retail_store_database](images/order_database_creation.png)
 
-![creating retail_store_database](images/order_database_name.png)
+![naming the database as retail_store_database](images/order_database_name.png)
 
 Under the **definitions** tab, let the value of encoding field stay to its default value of **UTF8**.
 
-![creating retail_store_database](images/order_database_encoding.png)
+![field for definitions tab](images/order_database_encoding.png)
 
 ### Creating the table
 
 Now that **retail_store_database** is created. The next step is to create a table within it. name this table as **orders**.
 
-![creating retail_store_database](images/orders_table_creation.png)
+![creating the table under retal_store_database](images/orders_table_creation.png)
 
 We want to make sure that each column of **orders** has the same data type with its corresponding column in the **orders_dataset.csv** that we prepared earlier. This is to avoid error once we start loading the csv file to the **retail_store_database**.
 
-![creating retail_store_database](images/orders_table_properties.png)
+![checking of order's columns data types](images/orders_table_properties.png)
 
 
 ### Importing the data
 
 After creating the table with its appropriate columns' data type, we can now load the contents of **orders_dataset.csv** on it. On the **orders** table of **retail_store_database**, right-click on it and select **Import/Export Data** option.
 
-![creating retail_store_database](images/importing_data.png)
+![navigating to import/export data option](images/importing_data.png)
 
 Under the **General** tab, choose **import** on the toggle. For the **filename** field, browse on the file location of **orders_dataset.csv** file. For the **Format** and **Encoding** field, choose **csv** (orders_dataset file type) and **UTF8**, respectively.
 
-![creating retail_store_database](images/import_export_data_general.png)
+![fields of general tab under import/export data](images/import_export_data_general.png)
 
-Under the **General** tab, turn on **Header** toggle. Since the dataset to be imported  is a csv (comma separated value) file, choose **,** as the **Delimiter**.
+Under the **Options** tab, turn on **Header** toggle. Since the dataset to be imported  is a csv (comma separated value) file, choose **,** as the **Delimiter**.
 
-![creating retail_store_database](images/import_export_data_options.png)
+![fields of options tab under import/export data](images/import_export_data_options.png)
 
 Lastly, under the **Columns** tab, check the **Columns to export** if the values matches the columns of the dataset to be imported as well as the columns of the previously created **orders** table. Once check, click **OK**. 
 
-![creating retail_store_database](images/import_export_data_columns.png)
+![fields of columns tab under import/export data](images/import_export_data_columns.png)
 
 If the importing of data becomes successful, you'll see a notification like this.
 
-![creating retail_store_database](images/import_data_successful.png)
+![notification of successful data import](images/import_data_successful.png)
+
+### Writing the queries
+
+Now that the records of **orders_dataset.csv** has been loaded to **orders** table, we can proceed with the analysis of the retail store's sales in order to answer the following questions stated previously by writing SQL queries. Under **Tables**, right-click on **orders** and choose **Query Tool**. 
+
+
+![navigating to the query tool](images/order_table_query_tool.png)
+
+This will show the space under **retail_store_database** where the queries can be written and run.
+
+![workspace for retail_store_database_query_tool](images/retail_store_database_query_tool.png)
+
 
 
 
