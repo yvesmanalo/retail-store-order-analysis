@@ -81,7 +81,7 @@ The orders_dataset.csv dataset does not have correct data type for most of its c
 
 ### Creating the database
 
-With **orders_dataset.csv** being prepared, its ready to be load to a database to which we can perform queries. But first we need to create this database using pgAdmin tool. We will name this database as **retail_store_database**.
+With **orders_dataset.csv** being prepared, its ready to be load to a database to which we can perform queries. But first we need to create this database using pgAdmin tool. Name this database as **retail_store_database**.
 
 ![creating retail_store_database](images/order_database_creation.png)
 
@@ -93,7 +93,7 @@ Under the **definitions** tab, let the value of encoding field stay to its defau
 
 ### Creating the table
 
-Now that **retail_store_database** is created. The next step is to create a table within it. We will name this table as **orders**.
+Now that **retail_store_database** is created. The next step is to create a table within it. name this table as **orders**.
 
 ![creating retail_store_database](images/orders_table_creation.png)
 
@@ -108,6 +108,21 @@ After creating the table with its appropriate columns' data type, we can now loa
 
 ![creating retail_store_database](images/importing_data.png)
 
+Under the **General** tab, choose **import** on the toggle. For the **filename** field, browse on the file location of **orders_dataset.csv** file. For the **Format** and **Encoding** field, choose **csv** (orders_dataset file type) and **UTF8**, respectively.
+
+![creating retail_store_database](images/importing_export_data_general.png)
+
+Under the **General** tab, turn on **Header** toggle. Since the dataset to be imported  is a csv (comma separated value) file, choose **,** as the **Delimiter**.
+
+![creating retail_store_database](images/importing_export_data_options.png)
+
+Lastly, under the **Columns** tab, check the **Columns to export** if the values matches the columns of the dataset to be imported as well as the columns of the previously created **orders** table. Once check, click **OK**. 
+
+![creating retail_store_database](images/importing_export_data_columns.png)
+
+If the importing of data becomes successful, you'll see a notification like this.
+
+![creating retail_store_database](images/importing_export_data_successful.png)
 
 
 
