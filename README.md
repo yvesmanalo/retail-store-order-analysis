@@ -150,7 +150,7 @@ FROM orders;
 
 ![SQL code for question 1](images/q1_query.png)
 
-### How many orders were made in each region?
+### Question 2: How many orders were made in each region?
 
 **Code:**
 
