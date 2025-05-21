@@ -144,9 +144,23 @@ SELECT COUNT(order_id) AS total_num_orders
 FROM orders;
 ```
 
-Result:
+**Result:**
 
 ![SQL code for question 1](images/q1_query.png)
+
+### How many orders were made in each region?
+
+```sql
+--How many orders were made in each region?
+SELECT region, COUNT(order_id) AS num_orders
+FROM orders
+GROUP BY region;
+```
+
+**Result:**
+
+![SQL code for question 2](images/q2_query.png)
+
 
 
 
