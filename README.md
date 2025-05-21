@@ -138,7 +138,15 @@ The next series of code and images are the queries for each of the following que
 
 ### Question 1: What is the total number of orders placed?
 
+```sql
+--What is the total number of orders placed?
+SELECT COUNT(order_id) AS total_num_orders
+FROM orders;
+```
 
+Result:
+
+![SQL code for question 1](images/q1_query.png)
 
 
 
