@@ -138,6 +138,8 @@ The next series of code and images are the queries for each of the following que
 
 ### Question 1: What is the total number of orders placed?
 
+**Code:**
+
 ```sql
 --What is the total number of orders placed?
 SELECT COUNT(order_id) AS total_num_orders
@@ -149,6 +151,8 @@ FROM orders;
 ![SQL code for question 1](images/q1_query.png)
 
 ### How many orders were made in each region?
+
+**Code:**
 
 ```sql
 --How many orders were made in each region?
