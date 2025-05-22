@@ -22,7 +22,8 @@ GROUP BY product_name;
 SELECT order_date, COUNT(order_id) AS num_orders
 FROM orders
 GROUP BY order_date
-ORDER BY num_orders DESC;
+ORDER BY num_orders DESC
+LIMIT 1;
 
 --What is the total revenue per region? (Revenue = quantity × price_per_unit)
 SELECT region, SUM(revenue) AS revenue_per_region
