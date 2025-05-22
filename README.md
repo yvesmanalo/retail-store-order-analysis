@@ -213,6 +213,94 @@ LIMIT 1;
 
 ![SQL code for question 5](images/q5_query.png)
 
+### Question 6: What is the total revenue per region?
+
+**Code:**
+
+```sql
+--What is the total revenue per region? (Revenue = quantity × price_per_unit)
+SELECT region, SUM(revenue) AS revenue_per_region
+FROM (
+	SELECT region, quantity * price_per_unit AS revenue
+	FROM orders
+)
+GROUP BY region;
+```
+
+**Result:**
+
+![SQL code for question 6](images/q6_query.png)
+
+### Question 7: List the top 5 highest revenue-generating products.
+
+**Code:**
+
+```sql
+--List the top 5 highest revenue-generating products.
+SELECT product_name, SUM(revenue) AS revenue_per_product
+FROM (
+	SELECT product_name,quantity * price_per_unit AS revenue
+	FROM orders
+)
+GROUP BY product_name
+ORDER BY revenue_per_product
+LIMIT 5;
+```
+
+**Result:**
+
+![SQL code for question 7](images/q7_query.png)
+
+### Question 8: What is the average order quantity per product category?
+
+**Code:**
+
+```sql
+--What is the average order quantity per product category?
+SELECT product_category, ROUND(AVG(quantity),2) AS avg_order_quantity_per_product_category
+FROM orders
+GROUP BY product_category;
+```
+
+**Result:**
+
+![SQL code for question 8](images/q8_query.png)
+
+### Question 9: How many unique customers placed orders?
+
+**Code:**
+
+```sql
+--How many unique customers placed orders?
+SELECT COUNT(DISTINCT customer_id) AS num_unique_customer_orders
+FROM orders;
+```
+
+**Result:**
+
+![SQL code for question 9](images/q9_query.png)
+
+### Question 10: Which region had the highest average order revenue?
+
+**Code:**
+
+```sql
+--Which region had the highest average order revenue?
+SELECT region, ROUND(AVG(revenue),2) AS avg_revenue_per_region
+FROM (
+	SELECT region, quantity * price_per_unit AS revenue
+	FROM orders
+)
+GROUP BY region
+ORDER BY avg_revenue_per_region DESC
+LIMIT 1;
+	
+```
+
+**Result:**
+
+![SQL code for question 10](images/q10_query.png)
+
 
 
 
