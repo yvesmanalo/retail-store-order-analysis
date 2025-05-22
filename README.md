@@ -165,6 +165,54 @@ GROUP BY region;
 
 ![SQL code for question 2](images/q2_query.png)
 
+### Question 3: Which product category had the highest number of orders?
+
+**Code:**
+
+```sql
+--Which product category had the highest number of orders?
+SELECT product_category, COUNT(order_id) AS number_orders
+FROM orders
+GROUP BY product_category
+ORDER BY number_orders DESC;
+```
+
+**Result:**
+
+![SQL code for question 3](images/q3_query.png)
+
+### Question 4: How many total units were sold for each product?
+
+**Code:**
+
+```sql
+--How many total units were sold for each product?
+SELECT product_name, COUNT(order_id) AS number_units_sold
+FROM orders
+GROUP BY product_name;
+```
+
+**Result:**
+
+![SQL code for question 4](images/q4_query.png)
+
+### Question 5: Which day had the highest number of orders placed?
+
+**Code:**
+
+```sql
+--Which day had the highest number of orders placed?
+SELECT order_date, COUNT(order_id) AS num_orders
+FROM orders
+GROUP BY order_date
+ORDER BY num_orders DESC
+LIMIT 1;
+```
+
+**Result:**
+
+![SQL code for question 5](images/q5_query.png)
+
 
 
 
