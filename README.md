@@ -303,18 +303,41 @@ LIMIT 1;
 
 ## 📝 Summary of Results:
 After executing queries on the **retail_store_database**, the following results were obtained:
-- A total of **50** orders were placed on the retail store.
-- The retail store made **11**, **12**, **15** and **12** orders on **South**, **West**, **North** and **East** regions, respectively.
+- A total of **50** orders were placed on the products of the retail store.
+- The retail store processed orders across four regions as follows:
+	- **South** Region: **11** orders
+	- **West** Region: **12** orders
+	- **North** Region: **15** orders
+	- **East** Region: **12** orders
 - The products under **Electronics** had the most number of orders, with the total of **21** orders.
-- The retail store sold its products with number of units as follows:
-	- **Notebook** - **11** units
-	- **Office Chair** - **6** units
-	- **Desk Lamp** - **3** units
-	- **Smartphone** - **7** units
-	- **Pen Pack** - **9** units
-	- **Headphones** - **10** units
-	- **Laptop** - **4** units
-- The retail store had the most number of orders placed on its products on **March 30, 2024**
+- The retail store recorded the following product sales:
+	- **Notebook**: **11** units
+	- **Office Chair**: **6** units
+	- **Desk Lamp**: **3** units
+	- **Smartphone**: **7** units
+	- **Pen Pack**: **9** units
+	- **Headphones**: **10** units
+	- **Laptop**: **4** units
+- The retail store had the most number of orders placed on its products on **March 30, 2024**.
+- The retail store generated the following revenue across each region:
+	- **South** Region: **$14,775.77**
+	- **West** Region: **$15,337.93**
+	- **North** Region: **$18,641.08**
+	- **East** Region: **$14,418.67**
+- The top 5 highest	revenue-generating products are as follows:
+	- **Headphones**: **$9,055.68**
+	- **Office Chair**: **$9,006.42**
+	- **Smartphone**: **$8,252.89**
+	- **Desk Lamp**: **$7,914.02**
+	- **Laptop**: **$3690.02**
+- The average order quantity per product category are as follows:
+	- **Furniture**: **2.89**
+	- **Electronics**: **3.10**
+	- **Stationery**: **2.70**
+- There were **24** unique placed orders made by customers on the retail store.
+- The **Southern** region made the highest average order revenue, with the amount of **$1,343.25**.
+	
+
 
 
 
