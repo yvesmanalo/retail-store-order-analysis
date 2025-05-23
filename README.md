@@ -328,7 +328,7 @@ After executing queries on the **retail_store_database**, the following results 
 	- **Pen Pack**: **$12,617.59**
 	- **"Notebook"**: **$12,366.83**
 	- **"Headphones"**: **$9,055.68**
-	- **"Office Chair"*: **$9,006.42**
+	- **"Office Chair"**: **$9,006.42**
 	- **"Smartphone"**: **$8,252.89**
 - The average order quantity per product category are as follows:
 	- **Furniture**: **2.89** orders
