@@ -301,6 +301,21 @@ LIMIT 1;
 
 ![SQL code for question 10](images/q10_query.png)
 
+## 📝 Summary of Results:
+After executing queries on the **retail_store_database**, the following results were obtained:
+- A total of **50** orders were placed on the retail store.
+- The retail store made **11**, **12**, **15** and **12** orders on **South**, **West**, **North** and **East** regions, respectively.
+- The products under **Electronics** had the most number of orders, with the total of **21** orders.
+- The retail store sold its products with number of units as follows:
+	- **Notebook** - **11** units
+	- **Office Chair** - **6** units
+	- **Desk Lamp** - **3** units
+	- **Smartphone** - **7** units
+	- **Pen Pack** - **9** units
+	- **Headphones** - **10** units
+	- **Laptop** - **4** units
+- The retail store had the most number of orders placed on its products on **March 30, 2024**
+
 
 
 
