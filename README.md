@@ -243,7 +243,7 @@ FROM (
 	FROM orders
 )
 GROUP BY product_name
-ORDER BY revenue_per_product
+ORDER BY revenue_per_product DESC
 LIMIT 5;
 ```
 
@@ -325,15 +325,15 @@ After executing queries on the **retail_store_database**, the following results 
 	- **North** Region: **$18,641.08**
 	- **East** Region: **$14,418.67**
 - The top 5 highest	revenue-generating products are as follows:
-	- **Headphones**: **$9,055.68**
-	- **Office Chair**: **$9,006.42**
-	- **Smartphone**: **$8,252.89**
-	- **Desk Lamp**: **$7,914.02**
-	- **Laptop**: **$3690.02**
+	- **Pen Pack**: **$12,617.59**
+	- **"Notebook"**: **$12,366.83**
+	- **"Headphones"**: **$9,055.68**
+	- **"Office Chair"*: **$9,006.42**
+	- **"Smartphone"**: **$8,252.89**
 - The average order quantity per product category are as follows:
-	- **Furniture**: **2.89**
-	- **Electronics**: **3.10**
-	- **Stationery**: **2.70**
+	- **Furniture**: **2.89** orders
+	- **Electronics**: **3.10** orders
+	- **Stationery**: **2.70** orders
 - There were **24** unique placed orders made by customers on the retail store.
 - The **Southern** region made the highest average order revenue, with the amount of **$1,343.25**.
 	

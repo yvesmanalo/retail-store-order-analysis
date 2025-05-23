@@ -40,7 +40,7 @@ FROM (
 	FROM orders
 )
 GROUP BY product_name
-ORDER BY revenue_per_product
+ORDER BY revenue_per_product DESC
 LIMIT 5;
 
 --What is the average order quantity per product category?
